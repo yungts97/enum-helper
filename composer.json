@@ -1,0 +1,27 @@
+{
+    "name": "yungts97/enum-helpers",
+    "description": "This is a package that provided some helper functions for PHP Enumeration.",
+    "type": "library",
+    "require": {
+        "php": "^8.1"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Yungts97\\EnumHelpers\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Yungts97\\EnumHelpers\\Tests\\": "tests"
+        }
+    },
+    "authors": [{
+        "name": "Yung Teck Sheng",
+        "email": "yungts97@gmail.com"
+    }],
+    "minimum-stability": "stable",
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    }
+}
